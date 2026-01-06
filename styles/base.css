@@ -76,7 +76,6 @@ main {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1.5rem;
-  background-color: var(--accent2-color);
 }
 
 .card h2 {
@@ -89,8 +88,8 @@ main {
 .card img {
   display: block;
   margin: 1rem auto;
-  border-radius: 6px;
-  max-width: 100%;
+  border-radius: 3px;
+  max-width: 90%;
   height: auto;
 }
 
