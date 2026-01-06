@@ -34,6 +34,14 @@ header h1 span {
 
 }
 
+.main-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
