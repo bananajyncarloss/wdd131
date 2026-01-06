@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - John Jenly Tirazona</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Home page - Jyn Carlos Banaña">
+    <meta name="author" content="Jyn Carlos S. Banaña">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Banaña</h1>
+    <header>
+  <h1>
+    <span id="course-title"> WDD 131: Dynamic Web Fundamentals - Jyn Carlos Banaña</span>
+  </h1>
+
+  <nav aria-label="Primary">
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/jyn-carlos-banaña-81ba14360/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://byupw.instructure.com/" target="_blank" rel="noopener noreferrer">
+          Canvas
+        </a>
+      </li>
+      <li>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/6?lang=eng&id=p12#p12"
+           target="_blank" rel="noopener noreferrer">
+          Favorite Scripture
+        </a>
+      </li>
+      <li>
+        <a href="final-project/">Final Project</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+    <h1>Jyn Carlos S. Banaña</h1>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <img src="images/profile.jpg" alt="Profile picture of John" width="200">
+    <p>
+      Hello! Nice to meet you all! My name is John Jenly Tirazona and I'm from the Philippines!
+      I'am currently studying software development at BYU-Pathway Worldwide. 
+      Some of my hobbies include reading books, travelling, and playing video games. 
+    </p>
+    <br>
+
+    <h3>Manila, Philippines</h3>
+    <img src="images/philippine-flag.webp" alt="Official Flag of the Philippines" width="120" height="80">
+    <p><em>Official Flag of Philippines</em></p>
+    <p>
+      The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. 
+      Located in the western Pacific Ocean, it consists of 7,641 islands, with a total area of roughly 300,000 square kilometers, 
+      which are broadly categorized in three main geographical divisions from north to south: Luzon, Visayas, and Mindanao. 
+      With a population of over 110 million, it is the world's twelfth-most-populous country.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Favorite Video Games</h2>
+    <ul>
+      <li><a href="https://www.nintendo.com/au/games/nintendo-switch/the-legend-of-zelda-tears-of-the-kingdom/?srsltid=AfmBOoqWfvsk67sdYgkjg5shBoE1L4FHbQOoFlCZ3SDTbMDPwLLpcE6J" target="_blank">Legend of Zelda: Tears Of The Kingdom</a></li>
+      <li><a href="https://genshin.hoyoverse.com/en/" target="_blank">Genshin Impact</a></li>
+      <li><a href="https://scarletviolet.pokemon.com/en-us/" target="_blank">Pokemon Violet</a></li>
+      <li><a href="https://www.square-enix-games.com/en_EU/games/octopath-traveler" target="_blank">Octopath Traveler</a></li>
+      <li><a href="https://persona.atlus.com/p4g/" target="_blank">Persona 4 Golden </a></li>
+      <li><a href="https://seaofstarsgame.co/" target="_blank">Sea Of Stars</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>
+    &copy; <span id="currentyear"></span>Jyn Carlos Banaña | Philippines
+  </p>
+  <p id="lastModified"></p>
+</footer>
+
+
 </body>
 </html>
