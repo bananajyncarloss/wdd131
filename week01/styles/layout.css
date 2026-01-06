@@ -10,6 +10,27 @@ header {
   grid-column: 1 / 4;
 }
 
+navigation {
+      background-color: #000;
+    }
+
+navigation ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+nav li {
+      margin: 0 15px;
+    }
+
+nav a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 0;
+    }
+
 .left-sidebar {
   background: lightblue;
   grid-column: 1 / 2;
