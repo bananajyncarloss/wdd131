@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #005f73;
+  --secondary-color: #0a9396;
+  --light-gray: #fdfdfd;
+  --dark-gray: #333;
+  --border: 1px solid #777;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: var(--light-gray);
+  background-color: #dbf4f5;
+  color: var(--dark-gray);
+}
+
+h1 {
+  color: #fff;
+  background-color: #005f73;
+  border-radius: 8px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  background-color: #005f73;
+  color: #fff;
+  border-radius: 8px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero {
+  position: relative; /* anchor overlays */
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.overlay {
+  margin: 1rem auto;
+  width: fit-content;
+  padding: 0;                /* no padding */
+  border-radius: 0;          /* no rounded box */
+  background-color: transparent; /* remove white box */
+}
+
+tr td:first-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* Large View */
+@media screen and (min-width: 1000px) {
+  .overlay {
+    position: absolute;
+    z-index: 2;
+    width: 220px;
+    padding: 1em;                       /* bring back padding */
+    border-radius: 1.5em;               /* rounded box again */
+    background-color: rgba(255, 255, 255, 0.7); /* semi-transparent box */
+  }
+
+  #data {
+    top: 100px;
+    left: 20px;
+  }
+
+  #weather {
+    bottom: 100px;
+    right: 20px;
+    text-align: center;
+  }
+
+  #weather h2::after {
+    content: " 🌧️ Light Rain";
+    margin-left: 0.5em;
+  }
+
+  h2:hover {
+    transform: scale(1.05);
+  }
+
+  svg {
+    display: none; /* hide icon on desktop */
+  }
+}
