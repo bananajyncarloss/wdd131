@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 0;
+  }
+
+  nav a {
+    padding: 0;
+  }
+
+  nav a:hover {
+    background: none;
+    text-decoration: underline;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
