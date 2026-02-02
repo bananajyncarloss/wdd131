@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #253237;
+  --secondary-color: #5C6B73;
+  --accent1-color: #9DB4C0;
+  --accent2-color: #C2DFE3;
+  --heading-font: "Luckiest Guy", cursive;
+  --body-font: "Quicksand", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.colors {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.color-sample {
+  flex: 1;
+  height: 60px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.primary { background-color: var(--primary-color); }
+.secondary { background-color: var(--secondary-color); }
+.accent1 { background-color: var(--accent1-color); }
+.accent2 { background-color: var(--accent2-color); color: black; }
+
+.wireframes {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.wireframe-box {
+  flex: 1 1 250px;
+  border: 2px dashed var(--secondary-color);
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--accent1-color);
+  color: white;
+  border-radius: 6px;
+}
