@@ -27,11 +27,11 @@
 
       <fieldset>
         <legend>Overall Rating</legend>
-        <label><input type="radio" name="rating" value="1" required> ☆</label>
-        <label><input type="radio" name="rating" value="2"> ☆☆</label>
-        <label><input type="radio" name="rating" value="3"> ☆☆☆</label>
-        <label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
-        <label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+        <label for="1star">☆</label><input type="radio" id="1star" name="rating" value="1" required> 
+        <label for="2star">☆☆</label><input type="radio" id="2stars" name="rating" value="2"> 
+        <label for="3star">☆☆☆</label><input type="radio" id="3stars" name="rating" value="3"> 
+        <label for="4star">☆☆☆☆</label><input type="radio" id="4stars" name="rating" value="4"> 
+        <label for="5star">☆☆☆☆☆</label><input type="radio" id="5stars" name="rating" value="5"> 
       </fieldset>
 
       <label for="installDate">Date of Installation</label>
@@ -39,10 +39,17 @@
 
       <fieldset>
         <legend>Which features did you find useful? (Check all that apply)</legend>
-        <label><input type="checkbox" id="durability" name="features" value="Durability"> Durability</label>
-        <label><input type="checkbox" id="ease" name="features" value="Ease of Use"> Ease of Use</label>
-        <label><input type="checkbox" id="performance" name="features" value="Performance"> Performance</label>
-        <label><input type="checkbox" id="design" name="features" value="Design"> Design</label>
+       <input type="checkbox" id="durability" name="features" value="durability">
+        <label for="durability">Durability</label><br>
+
+        <input type="checkbox" id="ease" name="features" value="ease">
+        <label for="ease">Ease of Use</label><br>
+
+        <input type="checkbox" id="performance" name="features" value="performance">
+        <label for="performance">Performance</label><br>
+
+        <input type="checkbox" id="design" name="features" value="design">
+        <label for="design">Design</label>
       </fieldset>
 
       <label for="review">Written Review (Optional)</label>
