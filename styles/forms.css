@@ -61,3 +61,25 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: var(--accent1-color);
 }
+
+@media (max-width: 600px) {
+
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .rating {
+    justify-content: space-between;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
