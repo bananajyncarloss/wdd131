@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Recap of Elder Banaña</title>
+  <link rel="stylesheet" href="styles/project.css">
+  <meta name="description" content="WDD 131 FINAL PROJECT - Jyn Carlos S. Banaña">
+  <meta name="author" content="Jyn Carlos S. Banaña">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/project.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Mission Recap of Elder Banaña</h1>
+    <button id="menuBtn" aria-label="Menu">☰</button>
+    <nav id="mainNav">
+      <a href="project.html">Home</a>
+      <a href="memories.html">Memories</a>
+      <a href="favorite-verses.html">Favorite Verses</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>April 2023 - April 2025</h2>
+      <img src="images/hero-image.webp" alt="Mission Hero Image" loading="lazy">
+    </section>
+
+    <section class="info-sections">
+      <div class="mission-recap">
+        <h2>Mission Recap:</h2>
+        <ul>
+          <li><strong>Mission:</strong> Ghana Accra East Mission</li>
+          <li><strong>Number of Companions:</strong> 11</li>
+          <li><strong>Number of Areas:</strong> 6</li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <h2>Links:</h2>
+        <a href="https://drive.google.com/file/d/1KTUoTvPMWxE5PDozZbY670IqrfYomsJe/view?usp=sharing">
+          Mission Call
+        </a>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> Jyn Carlos S. Banaña | Philippines
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

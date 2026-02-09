@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Recap of Elder Banaña</title>
+  <link rel="stylesheet" href="styles/project.css">
+  <meta name="description" content="WDD 131 FINAL PROJECT - Jyn Carlos S. Banaña">
+  <meta name="author" content="Jyn Carlos S. Banaña">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/project.js" defer></script>
+
+</head>
+<body>
+    <header>
+    <h1>Mission Recap of Elder Banaña</h1>
+    <button id="menuBtn" aria-label="Menu">☰</button>
+    <nav id="mainNav">
+      <a href="project.html">Home</a>
+      <a href="memories.html">Memories</a>
+      <a href="favorite-verses.html" class="active">Favorite Verses</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="verses-section">
+      <h2>Favorite Verses</h2>
+      <div class="verses-grid" id="versesGrid"></div>
+
+      <div class="button-container">
+        <button id="saveVersesBtn">💾 Save My Favorite Verses</button>
+        <button id="loadVersesBtn">📖 Load Saved Verses</button>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> Jyn Carlos S. Banaña | Philippines
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
